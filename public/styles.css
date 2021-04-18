@@ -1,0 +1,53 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 48rem;
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(0, 109, 119),
+    rgb(131, 197, 190),
+    rgb(226, 149, 120)
+  );
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: whitesmoke;
+}
+h1 {
+  margin: 0rem, 2rem, 0rem, 2rem;
+  text-align: center;
+  font-size: 4rem;
+  text-shadow: gainsboro 0.1em 0.1em 0.9em;
+}
+p {
+  font-size: 2rem;
+  margin: 4rem 0rem;
+}
+button {
+  background-color: rgb(0, 109, 119);
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  color: whitesmoke;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  cursor: pointer;
+  outline-color: rgb(226, 149, 120);
+}
+input {
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 0.5rem 2.5rem;
+  border: none;
+  outline-color: rgb(226, 149, 120);
+}
+footer{
+  margin-top: 5rem;
+}
+
+
+@media (min-width: 1700px)  {
+  body {
+    height: 63rem;
+  }
+}
